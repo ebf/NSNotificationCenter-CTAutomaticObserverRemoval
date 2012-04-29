@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7302F4C154DB9DE00DAEB37 /* CTNotificationStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = A7302F4A154DB9DE00DAEB37 /* CTNotificationStorage.h */; };
+		A7302F4D154DB9DE00DAEB37 /* CTNotificationStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = A7302F4B154DB9DE00DAEB37 /* CTNotificationStorage.m */; };
+		A78F7854154D611F0039161E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A78F7853154D611F0039161E /* Foundation.framework */; };
+		A78F785A154D611F0039161E /* NSNotificationCenter+CTAutomaticObserverRemoval.m in Sources */ = {isa = PBXBuildFile; fileRef = A78F7859154D611F0039161E /* NSNotificationCenter+CTAutomaticObserverRemoval.m */; };
+		A78F7862154D611F0039161E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A78F7861154D611F0039161E /* SenTestingKit.framework */; };
+		A78F7865154D611F0039161E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A78F7853154D611F0039161E /* Foundation.framework */; };
+		A78F7868154D611F0039161E /* libNSNotificationCenter-CTAutomaticObserverRemoval.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A78F7850154D611F0039161E /* libNSNotificationCenter-CTAutomaticObserverRemoval.a */; };
+		A78F786E154D611F0039161E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A78F786C154D611F0039161E /* InfoPlist.strings */; };
+		A78F7871154D611F0039161E /* NSNotificationCenter_CTAutomaticObserverRemovalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A78F7870154D611F0039161E /* NSNotificationCenter_CTAutomaticObserverRemovalTests.m */; };
+		A78F787B154D61AA0039161E /* libdispatch.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A78F787A154D61AA0039161E /* libdispatch.dylib */; };
+		A78F787E154D62440039161E /* NSObject+CTAutomaticObserverRemoval.h in Headers */ = {isa = PBXBuildFile; fileRef = A78F787C154D62440039161E /* NSObject+CTAutomaticObserverRemoval.h */; };
+		A78F787F154D62440039161E /* NSObject+CTAutomaticObserverRemoval.m in Sources */ = {isa = PBXBuildFile; fileRef = A78F787D154D62440039161E /* NSObject+CTAutomaticObserverRemoval.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A78F7866154D611F0039161E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A78F7847154D611F0039161E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A78F784F154D611F0039161E;
+			remoteInfo = "NSNotificationCenter-CTAutomaticObserverRemoval";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7302F4A154DB9DE00DAEB37 /* CTNotificationStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTNotificationStorage.h; sourceTree = "<group>"; };
+		A7302F4B154DB9DE00DAEB37 /* CTNotificationStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTNotificationStorage.m; sourceTree = "<group>"; };
+		A78F7850154D611F0039161E /* libNSNotificationCenter-CTAutomaticObserverRemoval.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libNSNotificationCenter-CTAutomaticObserverRemoval.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78F7853154D611F0039161E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A78F7857154D611F0039161E /* NSNotificationCenter-CTAutomaticObserverRemoval-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter-CTAutomaticObserverRemoval-Prefix.pch"; sourceTree = "<group>"; };
+		A78F7858154D611F0039161E /* NSNotificationCenter+CTAutomaticObserverRemoval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+CTAutomaticObserverRemoval.h"; sourceTree = "<group>"; };
+		A78F7859154D611F0039161E /* NSNotificationCenter+CTAutomaticObserverRemoval.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+CTAutomaticObserverRemoval.m"; sourceTree = "<group>"; };
+		A78F7860154D611F0039161E /* NSNotificationCenter-CTAutomaticObserverRemovalTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSNotificationCenter-CTAutomaticObserverRemovalTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78F7861154D611F0039161E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A78F786B154D611F0039161E /* NSNotificationCenter-CTAutomaticObserverRemovalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSNotificationCenter-CTAutomaticObserverRemovalTests-Info.plist"; sourceTree = "<group>"; };
+		A78F786D154D611F0039161E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A78F786F154D611F0039161E /* NSNotificationCenter_CTAutomaticObserverRemovalTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSNotificationCenter_CTAutomaticObserverRemovalTests.h; sourceTree = "<group>"; };
+		A78F7870154D611F0039161E /* NSNotificationCenter_CTAutomaticObserverRemovalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSNotificationCenter_CTAutomaticObserverRemovalTests.m; sourceTree = "<group>"; };
+		A78F787A154D61AA0039161E /* libdispatch.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libdispatch.dylib; path = usr/lib/system/libdispatch.dylib; sourceTree = SDKROOT; };
+		A78F787C154D62440039161E /* NSObject+CTAutomaticObserverRemoval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CTAutomaticObserverRemoval.h"; sourceTree = "<group>"; };
+		A78F787D154D62440039161E /* NSObject+CTAutomaticObserverRemoval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CTAutomaticObserverRemoval.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A78F784D154D611F0039161E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78F787B154D61AA0039161E /* libdispatch.dylib in Frameworks */,
+				A78F7854154D611F0039161E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78F785C154D611F0039161E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78F7862154D611F0039161E /* SenTestingKit.framework in Frameworks */,
+				A78F7865154D611F0039161E /* Foundation.framework in Frameworks */,
+				A78F7868154D611F0039161E /* libNSNotificationCenter-CTAutomaticObserverRemoval.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A78F7845154D611F0039161E = {
+			isa = PBXGroup;
+			children = (
+				A78F7855154D611F0039161E /* NSNotificationCenter-CTAutomaticObserverRemoval */,
+				A78F7869154D611F0039161E /* NSNotificationCenter-CTAutomaticObserverRemovalTests */,
+				A78F7852154D611F0039161E /* Frameworks */,
+				A78F7851154D611F0039161E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A78F7851154D611F0039161E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A78F7850154D611F0039161E /* libNSNotificationCenter-CTAutomaticObserverRemoval.a */,
+				A78F7860154D611F0039161E /* NSNotificationCenter-CTAutomaticObserverRemovalTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A78F7852154D611F0039161E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A78F787A154D61AA0039161E /* libdispatch.dylib */,
+				A78F7853154D611F0039161E /* Foundation.framework */,
+				A78F7861154D611F0039161E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A78F7855154D611F0039161E /* NSNotificationCenter-CTAutomaticObserverRemoval */ = {
+			isa = PBXGroup;
+			children = (
+				A78F7858154D611F0039161E /* NSNotificationCenter+CTAutomaticObserverRemoval.h */,
+				A78F7859154D611F0039161E /* NSNotificationCenter+CTAutomaticObserverRemoval.m */,
+				A78F7856154D611F0039161E /* Supporting Files */,
+				A78F787C154D62440039161E /* NSObject+CTAutomaticObserverRemoval.h */,
+				A78F787D154D62440039161E /* NSObject+CTAutomaticObserverRemoval.m */,
+				A7302F4A154DB9DE00DAEB37 /* CTNotificationStorage.h */,
+				A7302F4B154DB9DE00DAEB37 /* CTNotificationStorage.m */,
+			);
+			path = "NSNotificationCenter-CTAutomaticObserverRemoval";
+			sourceTree = "<group>";
+		};
+		A78F7856154D611F0039161E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A78F7857154D611F0039161E /* NSNotificationCenter-CTAutomaticObserverRemoval-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A78F7869154D611F0039161E /* NSNotificationCenter-CTAutomaticObserverRemovalTests */ = {
+			isa = PBXGroup;
+			children = (
+				A78F786F154D611F0039161E /* NSNotificationCenter_CTAutomaticObserverRemovalTests.h */,
+				A78F7870154D611F0039161E /* NSNotificationCenter_CTAutomaticObserverRemovalTests.m */,
+				A78F786A154D611F0039161E /* Supporting Files */,
+			);
+			path = "NSNotificationCenter-CTAutomaticObserverRemovalTests";
+			sourceTree = "<group>";
+		};
+		A78F786A154D611F0039161E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A78F786B154D611F0039161E /* NSNotificationCenter-CTAutomaticObserverRemovalTests-Info.plist */,
+				A78F786C154D611F0039161E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A78F784E154D611F0039161E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78F787E154D62440039161E /* NSObject+CTAutomaticObserverRemoval.h in Headers */,
+				A7302F4C154DB9DE00DAEB37 /* CTNotificationStorage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A78F784F154D611F0039161E /* NSNotificationCenter-CTAutomaticObserverRemoval */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78F7874154D611F0039161E /* Build configuration list for PBXNativeTarget "NSNotificationCenter-CTAutomaticObserverRemoval" */;
+			buildPhases = (
+				A78F784C154D611F0039161E /* Sources */,
+				A78F784D154D611F0039161E /* Frameworks */,
+				A78F784E154D611F0039161E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSNotificationCenter-CTAutomaticObserverRemoval";
+			productName = "NSNotificationCenter-CTAutomaticObserverRemoval";
+			productReference = A78F7850154D611F0039161E /* libNSNotificationCenter-CTAutomaticObserverRemoval.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A78F785F154D611F0039161E /* NSNotificationCenter-CTAutomaticObserverRemovalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78F7877154D611F0039161E /* Build configuration list for PBXNativeTarget "NSNotificationCenter-CTAutomaticObserverRemovalTests" */;
+			buildPhases = (
+				A78F785B154D611F0039161E /* Sources */,
+				A78F785C154D611F0039161E /* Frameworks */,
+				A78F785D154D611F0039161E /* Resources */,
+				A78F785E154D611F0039161E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A78F7867154D611F0039161E /* PBXTargetDependency */,
+			);
+			name = "NSNotificationCenter-CTAutomaticObserverRemovalTests";
+			productName = "NSNotificationCenter-CTAutomaticObserverRemovalTests";
+			productReference = A78F7860154D611F0039161E /* NSNotificationCenter-CTAutomaticObserverRemovalTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A78F7847154D611F0039161E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CT;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = ebf;
+			};
+			buildConfigurationList = A78F784A154D611F0039161E /* Build configuration list for PBXProject "NSNotificationCenter-CTAutomaticObserverRemoval" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A78F7845154D611F0039161E;
+			productRefGroup = A78F7851154D611F0039161E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A78F784F154D611F0039161E /* NSNotificationCenter-CTAutomaticObserverRemoval */,
+				A78F785F154D611F0039161E /* NSNotificationCenter-CTAutomaticObserverRemovalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A78F785D154D611F0039161E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78F786E154D611F0039161E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A78F785E154D611F0039161E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A78F784C154D611F0039161E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78F785A154D611F0039161E /* NSNotificationCenter+CTAutomaticObserverRemoval.m in Sources */,
+				A78F787F154D62440039161E /* NSObject+CTAutomaticObserverRemoval.m in Sources */,
+				A7302F4D154DB9DE00DAEB37 /* CTNotificationStorage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78F785B154D611F0039161E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78F7871154D611F0039161E /* NSNotificationCenter_CTAutomaticObserverRemovalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A78F7867154D611F0039161E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A78F784F154D611F0039161E /* NSNotificationCenter-CTAutomaticObserverRemoval */;
+			targetProxy = A78F7866154D611F0039161E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A78F786C154D611F0039161E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A78F786D154D611F0039161E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A78F7872154D611F0039161E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-objc",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A78F7873154D611F0039161E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-objc",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A78F7875154D611F0039161E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/NSNotificationCenter_CTAutomaticObserverRemoval.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSNotificationCenter-CTAutomaticObserverRemoval/NSNotificationCenter-CTAutomaticObserverRemoval-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A78F7876154D611F0039161E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/NSNotificationCenter_CTAutomaticObserverRemoval.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSNotificationCenter-CTAutomaticObserverRemoval/NSNotificationCenter-CTAutomaticObserverRemoval-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A78F7878154D611F0039161E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSNotificationCenter-CTAutomaticObserverRemoval/NSNotificationCenter-CTAutomaticObserverRemoval-Prefix.pch";
+				INFOPLIST_FILE = "NSNotificationCenter-CTAutomaticObserverRemovalTests/NSNotificationCenter-CTAutomaticObserverRemovalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A78F7879154D611F0039161E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSNotificationCenter-CTAutomaticObserverRemoval/NSNotificationCenter-CTAutomaticObserverRemoval-Prefix.pch";
+				INFOPLIST_FILE = "NSNotificationCenter-CTAutomaticObserverRemovalTests/NSNotificationCenter-CTAutomaticObserverRemovalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A78F784A154D611F0039161E /* Build configuration list for PBXProject "NSNotificationCenter-CTAutomaticObserverRemoval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78F7872154D611F0039161E /* Debug */,
+				A78F7873154D611F0039161E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A78F7874154D611F0039161E /* Build configuration list for PBXNativeTarget "NSNotificationCenter-CTAutomaticObserverRemoval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78F7875154D611F0039161E /* Debug */,
+				A78F7876154D611F0039161E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A78F7877154D611F0039161E /* Build configuration list for PBXNativeTarget "NSNotificationCenter-CTAutomaticObserverRemovalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78F7878154D611F0039161E /* Debug */,
+				A78F7879154D611F0039161E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A78F7847154D611F0039161E /* Project object */;
+}

@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'NSNotificationCenter-CTAutomaticObserverRemoval' target in the 'NSNotificationCenter-CTAutomaticObserverRemoval' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <dispatch/dispatch.h>
+    #import <objc/runtime.h>
+#endif
