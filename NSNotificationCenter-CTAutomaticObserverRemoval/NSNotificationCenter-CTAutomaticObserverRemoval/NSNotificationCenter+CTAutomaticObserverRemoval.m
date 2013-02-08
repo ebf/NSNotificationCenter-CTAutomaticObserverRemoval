@@ -13,6 +13,11 @@
 
 @implementation NSNotificationCenter (CTAutomaticObserverRemoval)
 
+- (id)addObserver:(id)observer forNotificationName:(NSString *)notificationName usingBlock:(void (^)(NSNotification *notification))block
+{
+    return [self addObserver:observer forNotificationName:notificationName object:nil dispatchQueue:NULL usingBlock:block];
+}
+
 - (id)addObserver:(id)observer forNotificationName:(NSString *)notificationName object:(id)object dispatchQueue:(dispatch_queue_t)queue usingBlock:(void (^)(NSNotification *notification))block
 {
     queue = queue ?: dispatch_get_current_queue();
