@@ -6,6 +6,8 @@
 //  Copyright (c) 2012 ebf. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
 @interface NSNotificationCenter (CTAutomaticObserverRemoval)
 
 - (id)addObserver:(id)observer forNotificationName:(NSString *)notificationName usingBlock:(void (^)(NSNotification *notification))block;

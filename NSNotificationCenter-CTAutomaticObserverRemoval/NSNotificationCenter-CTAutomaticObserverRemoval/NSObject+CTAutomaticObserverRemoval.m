@@ -8,6 +8,7 @@
 
 #import "NSObject+CTAutomaticObserverRemoval.h"
 #import "CTNotificationStorage.h"
+#import <objc/runtime.h>
 
 
 
