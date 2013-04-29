@@ -20,16 +20,12 @@
 
 - (id)addObserver:(id)observer forNotificationName:(NSString *)notificationName object:(id)object dispatchQueue:(dispatch_queue_t)queue usingBlock:(void (^)(NSNotification *notification))block
 {
-    queue = queue ?: dispatch_get_current_queue();
+    queue = queue ?: dispatch_get_main_queue();
     
     return [self addObserver:observer forNotificationName:notificationName object:object queue:nil usingBlock:^(NSNotification *notification) {
-        if (dispatch_get_current_queue() == queue) {
+        dispatch_async(queue, ^{
             block(notification);
-        } else {
-            dispatch_async(queue, ^(void) {
-                block(notification);
-            });
-        }
+        });
     }];
 }
 
