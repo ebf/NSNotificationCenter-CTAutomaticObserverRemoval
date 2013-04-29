@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'NSNotificationCenter-CTAutomaticObserverRemoval'
-  spec.version      = '0.1.0'
+  spec.version      = '0.1.1'
   spec.platform     = :ios, '5.0'
   spec.license      = 'MIT'
   spec.source       = { :git => 'https://github.com/ebf/NSNotificationCenter-CTAutomaticObserverRemoval.git', :tag => spec.version.to_s }
