@@ -39,15 +39,17 @@ NSString *const CTAutomaticObserverRemovalObserversStorageKey = @"CTAutomaticObs
 
 - (CTNotificationStorage *)CTNotificationStorage
 {
-    CTNotificationStorage *notificationStorage = objc_getAssociatedObject(self, &CTAutomaticObserverRemovalObserversStorageKey);
-    
-    if (!notificationStorage) {
-        notificationStorage = [[CTNotificationStorage alloc] initWithObserver:self];
-        objc_setAssociatedObject(self, &CTAutomaticObserverRemovalObserversStorageKey,
-                                 notificationStorage, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    @synchronized(self) {
+        CTNotificationStorage *notificationStorage = objc_getAssociatedObject(self, &CTAutomaticObserverRemovalObserversStorageKey);
+        
+        if (!notificationStorage) {
+            notificationStorage = [[CTNotificationStorage alloc] initWithObserver:self];
+            objc_setAssociatedObject(self, &CTAutomaticObserverRemovalObserversStorageKey,
+                                     notificationStorage, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+        }
+        
+        return notificationStorage;
     }
-    
-    return notificationStorage;
 }
 
 @end
