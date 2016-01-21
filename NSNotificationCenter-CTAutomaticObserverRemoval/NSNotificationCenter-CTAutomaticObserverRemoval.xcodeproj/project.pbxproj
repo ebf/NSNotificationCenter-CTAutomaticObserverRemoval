@@ -16,7 +16,6 @@
 		A78F7868154D611F0039161E /* libNSNotificationCenter-CTAutomaticObserverRemoval.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A78F7850154D611F0039161E /* libNSNotificationCenter-CTAutomaticObserverRemoval.a */; };
 		A78F786E154D611F0039161E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A78F786C154D611F0039161E /* InfoPlist.strings */; };
 		A78F7871154D611F0039161E /* NSNotificationCenter_CTAutomaticObserverRemovalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A78F7870154D611F0039161E /* NSNotificationCenter_CTAutomaticObserverRemovalTests.m */; };
-		A78F787B154D61AA0039161E /* libdispatch.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A78F787A154D61AA0039161E /* libdispatch.dylib */; };
 		A78F787E154D62440039161E /* NSObject+CTAutomaticObserverRemoval.h in Headers */ = {isa = PBXBuildFile; fileRef = A78F787C154D62440039161E /* NSObject+CTAutomaticObserverRemoval.h */; };
 		A78F787F154D62440039161E /* NSObject+CTAutomaticObserverRemoval.m in Sources */ = {isa = PBXBuildFile; fileRef = A78F787D154D62440039161E /* NSObject+CTAutomaticObserverRemoval.m */; };
 /* End PBXBuildFile section */
@@ -55,7 +54,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A78F787B154D61AA0039161E /* libdispatch.dylib in Frameworks */,
 				A78F7854154D611F0039161E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
